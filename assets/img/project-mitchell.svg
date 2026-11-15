@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="Mitchell Home Services website preview">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a24"/>
+      <stop offset="1" stop-color="#1b2a36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb545"/>
+      <stop offset="1" stop-color="#f08a24"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c4051"/>
+      <stop offset="1" stop-color="#182530"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <g opacity="0.5">
+    <path d="M0 420h800v100H0z" fill="#0d161d"/>
+    <circle cx="690" cy="120" r="90" fill="#ffb545" opacity="0.1"/>
+  </g>
+
+  <!-- nav -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="52" y="40" width="26" height="26" rx="6" fill="url(#accent)"/>
+    <text x="90" y="60" font-size="15" fill="#ffffff" font-weight="bold" letter-spacing="0.6">MITCHELL</text>
+    <g fill="#9fb0bf" font-size="10" letter-spacing="1.4">
+      <text x="470" y="59">SERVICES</text>
+      <text x="545" y="59">ABOUT</text>
+      <text x="605" y="59">REVIEWS</text>
+    </g>
+    <rect x="668" y="40" width="86" height="28" rx="14" fill="url(#accent)"/>
+    <text x="711" y="58" font-size="9" fill="#20150a" text-anchor="middle" letter-spacing="1.2" font-weight="bold">GET QUOTE</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="52" y="152" font-size="12" fill="#ffb545" letter-spacing="3">TRUSTED LOCAL SERVICE</text>
+    <text x="52" y="206" font-size="42" fill="#ffffff" font-weight="bold" letter-spacing="-1">Home services,</text>
+    <text x="52" y="252" font-size="42" fill="#ffffff" font-weight="bold" letter-spacing="-1">done properly.</text>
+    <text x="52" y="284" font-size="12" fill="#9fb0bf">Repairs, maintenance and improvements by a local team you can call.</text>
+
+    <rect x="52" y="306" width="120" height="36" rx="8" fill="url(#accent)"/>
+    <text x="112" y="329" font-size="10" fill="#20150a" text-anchor="middle" letter-spacing="1.4" font-weight="bold">BOOK A VISIT</text>
+    <rect x="182" y="306" width="120" height="36" rx="8" fill="none" stroke="#3d5468" stroke-width="1.4"/>
+    <text x="242" y="329" font-size="10" fill="#cfdae3" text-anchor="middle" letter-spacing="1.2">OUR WORK</text>
+  </g>
+
+  <!-- house -->
+  <g>
+    <path d="M470 300l118-92 118 92v130H470z" fill="url(#house)"/>
+    <path d="M452 306l136-106 136 106" fill="none" stroke="#3c576d" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="512" y="332" width="52" height="46" rx="3" fill="#ffd48a" opacity="0.85"/>
+    <rect x="596" y="332" width="52" height="46" rx="3" fill="#ffd48a" opacity="0.55"/>
+    <rect x="556" y="386" width="46" height="44" rx="3" fill="#0f1a22"/>
+    <circle cx="588" cy="140" r="26" fill="#ffb545" opacity="0.18"/>
+  </g>
+
+  <!-- service chips -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#cfdae3">
+    <rect x="52" y="392" width="104" height="30" rx="15" fill="#16232d" stroke="#2b4053"/>
+    <text x="104" y="411" text-anchor="middle" letter-spacing="0.8">PLUMBING</text>
+    <rect x="166" y="392" width="104" height="30" rx="15" fill="#16232d" stroke="#2b4053"/>
+    <text x="218" y="411" text-anchor="middle" letter-spacing="0.8">ELECTRICAL</text>
+    <rect x="280" y="392" width="104" height="30" rx="15" fill="#16232d" stroke="#2b4053"/>
+    <text x="332" y="411" text-anchor="middle" letter-spacing="0.8">REMODEL</text>
+  </g>
+</svg>
