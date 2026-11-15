@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Ridgeway Consulting website preview">
+  <defs>
+    <linearGradient id="rw-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1622"/>
+      <stop offset="1" stop-color="#1b2739"/>
+    </linearGradient>
+    <linearGradient id="rw-amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b45a"/>
+      <stop offset="1" stop-color="#d99a35"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#rw-bg)"/>
+  <g opacity="0.5">
+    <path d="M0 300h640v100H0z" fill="#0a111a"/>
+    <circle cx="560" cy="70" r="120" fill="#e8b45a" opacity="0.08"/>
+  </g>
+  <g stroke="#26374d" stroke-width="1" opacity="0.6">
+    <path d="M0 120h640M0 200h640M0 280h640"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <path d="M34 34l10 6v10l-10 6-10-6V40z" fill="none" stroke="#e8b45a" stroke-width="1.4"/>
+    <text x="58" y="46" font-size="12" font-weight="bold" fill="#ffffff" letter-spacing="1.6">RIDGEWAY</text>
+    <g fill="#8ea1b8" font-size="8" letter-spacing="1.2">
+      <text x="356" y="45">SERVICES</text>
+      <text x="412" y="45">SECTORS</text>
+      <text x="462" y="45">INSIGHTS</text>
+    </g>
+    <rect x="522" y="30" width="84" height="22" rx="3" fill="none" stroke="#3d5068"/>
+    <text x="564" y="45" font-size="7.5" fill="#d5bf94" text-anchor="middle" letter-spacing="1">LET'S TALK</text>
+
+    <text x="34" y="112" font-size="7.5" fill="#e8b45a" letter-spacing="2.6">STRATEGY &amp; ADVISORY</text>
+    <text x="34" y="152" font-size="27" font-weight="bold" fill="#ffffff" letter-spacing="-0.6">Clarity for complex</text>
+    <text x="34" y="184" font-size="27" font-weight="bold" fill="#ffffff" letter-spacing="-0.6">business decisions.</text>
+    <text x="34" y="210" font-size="9" fill="#8ea1b8">Practical advisory for owners and leadership teams planning</text>
+    <text x="34" y="224" font-size="9" fill="#8ea1b8">their next stage of growth.</text>
+
+    <rect x="34" y="244" width="104" height="26" rx="3" fill="url(#rw-amber)"/>
+    <text x="86" y="261" font-size="8" fill="#1b1405" text-anchor="middle" letter-spacing="1" font-weight="bold">OUR APPROACH</text>
+  </g>
+
+  <!-- stats panel -->
+  <g>
+    <rect x="384" y="126" width="222" height="188" rx="6" fill="#132033" stroke="#2a3d54"/>
+    <text x="404" y="152" font-family="Helvetica, Arial, sans-serif" font-size="7.5" fill="#8ea1b8" letter-spacing="1.6">SECTORS WE SERVE</text>
+    <g font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#e6edf6">
+      <text x="404" y="178">Manufacturing</text><text x="572" y="178" text-anchor="end" fill="#e8b45a">01</text>
+      <text x="404" y="202">Professional services</text><text x="572" y="202" text-anchor="end" fill="#e8b45a">02</text>
+      <text x="404" y="226">Logistics</text><text x="572" y="226" text-anchor="end" fill="#e8b45a">03</text>
+      <text x="404" y="250">Family business</text><text x="572" y="250" text-anchor="end" fill="#e8b45a">04</text>
+    </g>
+    <g stroke="#2a3d54" stroke-width="1">
+      <path d="M404 264h178M404 288h178"/>
+    </g>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="34" y="330" font-size="7.5" fill="#6f849e" letter-spacing="2">A WORD FROM OUR CLIENTS</text>
+    <rect x="34" y="342" width="180" height="1" fill="#2a3d54"/>
+    <rect x="226" y="342" width="180" height="1" fill="#2a3d54"/>
+    <rect x="418" y="342" width="188" height="1" fill="#2a3d54"/>
+  </g>
+</svg>

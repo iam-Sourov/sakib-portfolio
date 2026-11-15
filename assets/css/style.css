@@ -1259,6 +1259,97 @@ body.has-cursor .cursor-glow { opacity: 1; }
 .to-top.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
 .to-top:hover { border-color: var(--accent); color: var(--accent); }
 
+/* ---------- More projects ---------- */
+.more-projects { margin-top: clamp(46px, 6vw, 76px); }
+
+.more-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding-top: 34px;
+  margin-bottom: 26px;
+  border-top: 1px solid var(--line);
+}
+.more-title { font-size: clamp(1.25rem, 2.4vw, 1.6rem); }
+
+.work-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.filter-btn {
+  padding: 9px 17px;
+  border-radius: 100px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 0.82rem;
+  color: var(--muted);
+  transition: color 0.3s, border-color 0.3s, background 0.3s, transform 0.3s var(--ease);
+}
+.filter-btn:hover { color: var(--text); border-color: rgba(182, 243, 106, 0.4); transform: translateY(-1px); }
+.filter-btn.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 500;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 18px;
+}
+
+.mini-project {
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  overflow: hidden;
+  transition: transform 0.5s var(--ease), border-color 0.4s, box-shadow 0.5s;
+}
+.mini-project:hover {
+  border-color: rgba(182, 243, 106, 0.3);
+  box-shadow: 0 24px 44px -36px #000;
+}
+.mini-project.is-hidden { display: none; }
+
+.mini-media {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #0c0f11;
+  border-bottom: 1px solid var(--line);
+}
+.mini-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease);
+}
+.mini-project:hover .mini-media img { transform: scale(1.05); }
+
+.mini-info { padding: 20px 20px 22px; }
+.mini-info .work-tag { margin-bottom: 9px; font-size: 0.66rem; }
+.mini-info h4 {
+  font-family: var(--font-display);
+  font-size: 1.06rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 7px;
+}
+.mini-info p { color: var(--muted); font-size: 0.9rem; }
+.mini-info .tag-list { margin-top: 15px; }
+
+.more-note {
+  margin-top: 20px;
+  font-size: 0.84rem;
+  color: var(--muted-2);
+  text-align: center;
+  min-height: 1.4em;
+}
+
+@media (max-width: 620px) {
+  .more-head { flex-direction: column; align-items: flex-start; }
+  .mini-info { padding: 18px 18px 20px; }
+}
+
 /* ---------- Reveal animations ---------- */
 .reveal {
   opacity: 0;

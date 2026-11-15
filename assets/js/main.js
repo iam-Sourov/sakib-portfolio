@@ -240,6 +240,39 @@
     });
   }
 
+  /* ---------- Project category filter ---------- */
+  var filterBtns = $$(".filter-btn");
+  var miniCards = $$(".mini-project");
+  var filterNote = $("#filterNote");
+  var filterLabels = {
+    all: "Showing all " + miniCards.length + " projects.",
+    wordpress: "Showing WordPress development projects.",
+    ecommerce: "Showing e-commerce development projects.",
+    seo: "Showing SEO optimization projects."
+  };
+
+  if (filterBtns.length && miniCards.length) {
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var filter = btn.getAttribute("data-filter");
+
+        filterBtns.forEach(function (b) {
+          var active = b === btn;
+          b.classList.toggle("is-active", active);
+          b.setAttribute("aria-pressed", String(active));
+        });
+
+        miniCards.forEach(function (card) {
+          var show = filter === "all" || card.getAttribute("data-cat") === filter;
+          card.classList.toggle("is-hidden", !show);
+          if (show) card.classList.add("is-in");
+        });
+
+        if (filterNote) filterNote.textContent = filterLabels[filter] || "";
+      });
+    });
+  }
+
   /* ---------- Footer year ---------- */
   var year = $("#year");
   if (year) year.textContent = new Date().getFullYear();
