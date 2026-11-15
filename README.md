@@ -1,5 +1,7 @@
 # MD Abul Kalam Sakib — Portfolio
 
+**Live:** <https://iam-sourov.github.io/sakib-portfolio/>
+
 A fast, fully responsive portfolio site for a WordPress designer, developer and SEO
 expert. Built with plain HTML, CSS and JavaScript — no build step, no framework,
 no dependencies — so it runs directly on GitHub Pages.
