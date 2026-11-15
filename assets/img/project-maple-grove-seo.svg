@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Maple Grove Veterinary local SEO preview">
+  <defs>
+    <linearGradient id="mg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6f7"/>
+      <stop offset="1" stop-color="#d9eaed"/>
+    </linearGradient>
+    <linearGradient id="mg-teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a7f8c"/>
+      <stop offset="1" stop-color="#3a9caa"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#mg-bg)"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="34" y="24" width="18" height="18" rx="5" fill="url(#mg-teal)"/>
+    <text x="60" y="37" font-size="10.5" font-weight="bold" fill="#1c3b41" letter-spacing="1.2">MAPLE GROVE VET</text>
+    <text x="418" y="36" font-size="7" fill="#5d7f86" letter-spacing="1.6">LOCAL SEARCH REPORT</text>
+    <rect x="536" y="24" width="70" height="20" rx="10" fill="#cfe6e9"/>
+    <text x="571" y="37" font-size="6.5" fill="#2a7f8c" text-anchor="middle" letter-spacing="0.8">LOCAL SEO</text>
+
+    <text x="34" y="86" font-size="21" font-weight="bold" fill="#143036" letter-spacing="-0.4">Found by the right</text>
+    <text x="34" y="110" font-size="21" font-weight="bold" fill="#143036" letter-spacing="-0.4">pet owners nearby</text>
+  </g>
+
+  <!-- search result / local pack -->
+  <g>
+    <rect x="34" y="128" width="300" height="196" rx="6" fill="#ffffff" stroke="#cfe0e3"/>
+    <rect x="52" y="144" width="264" height="24" rx="12" fill="#f2f8f9" stroke="#d8e8ea"/>
+    <text x="66" y="160" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6d8b91">vet near me</text>
+    <circle cx="300" cy="156" r="5" fill="none" stroke="#8fb0b5" stroke-width="1.6"/>
+
+    <g font-family="Helvetica, Arial, sans-serif">
+      <text x="52" y="188" font-size="7" fill="#8fa9ad" letter-spacing="1.4">MAP PACK · 3 OF 3</text>
+
+      <circle cx="60" cy="204" r="7" fill="#2a7f8c"/>
+      <text x="60" y="207" font-size="7" fill="#ffffff" text-anchor="middle">1</text>
+      <text x="76" y="202" font-size="8.5" fill="#1c3b41" font-weight="bold">Maple Grove Veterinary</text>
+      <text x="76" y="214" font-size="7" fill="#7d979b">4.9 ★ · Opens 8am · 0.6 mi</text>
+
+      <circle cx="60" cy="238" r="7" fill="#b7cdd1"/>
+      <text x="60" y="241" font-size="7" fill="#ffffff" text-anchor="middle">2</text>
+      <text x="76" y="236" font-size="8" fill="#5d7f86">Riverside Animal Clinic</text>
+      <text x="76" y="248" font-size="7" fill="#9db2b6">4.4 ★ · 1.9 mi</text>
+
+      <circle cx="60" cy="272" r="7" fill="#b7cdd1"/>
+      <text x="60" y="275" font-size="7" fill="#ffffff" text-anchor="middle">3</text>
+      <text x="76" y="270" font-size="8" fill="#5d7f86">Oakfield Pet Hospital</text>
+      <text x="76" y="282" font-size="7" fill="#9db2b6">4.2 ★ · 2.4 mi</text>
+    </g>
+    <g stroke="#e7f0f2" stroke-width="1"><path d="M52 288h264"/></g>
+    <text x="52" y="306" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#2a7f8c">Service + location pages aligned to search intent</text>
+  </g>
+
+  <!-- map panel -->
+  <g>
+    <rect x="350" y="128" width="256" height="112" rx="6" fill="#dcebec" stroke="#c5dcdf"/>
+    <g stroke="#c2d8db" stroke-width="1.4">
+      <path d="M350 168h256M350 206h256M406 128v112M470 128v112M534 128v112"/>
+    </g>
+    <path d="M350 190l56-26 64 34 60-38 46 26" stroke="#a9c8cc" stroke-width="7" fill="none" opacity="0.7"/>
+    <g fill="#2a7f8c">
+      <circle cx="430" cy="180" r="7"/>
+      <circle cx="430" cy="180" r="14" fill="#2a7f8c" opacity="0.16"/>
+    </g>
+    <rect x="440" y="164" width="86" height="22" rx="4" fill="#ffffff" stroke="#c5dcdf"/>
+    <text x="448" y="179" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#1c3b41">Maple Grove</text>
+  </g>
+
+  <!-- checklist -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="350" y="252" width="256" height="72" rx="6" fill="#ffffff" stroke="#cfe0e3"/>
+    <g font-size="7" fill="#3d5c62">
+      <circle cx="364" cy="270" r="4.5" fill="#cfe6e9"/>
+      <path d="M362 270l1.6 1.6 3-3.4" stroke="#2a7f8c" stroke-width="1.3" fill="none"/>
+      <text x="376" y="273">Business profile &amp; NAP consistency</text>
+      <circle cx="364" cy="290" r="4.5" fill="#cfe6e9"/>
+      <path d="M362 290l1.6 1.6 3-3.4" stroke="#2a7f8c" stroke-width="1.3" fill="none"/>
+      <text x="376" y="293">LocalBusiness schema markup</text>
+      <circle cx="364" cy="310" r="4.5" fill="#cfe6e9"/>
+      <path d="M362 310l1.6 1.6 3-3.4" stroke="#2a7f8c" stroke-width="1.3" fill="none"/>
+      <text x="376" y="313">Review-friendly service pages</text>
+    </g>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="6.8" fill="#7d979b" letter-spacing="1.4">
+    <text x="34" y="352">LOCAL PACK</text>
+    <text x="118" y="352">SCHEMA</text>
+    <text x="186" y="352">REVIEWS</text>
+    <text x="256" y="352">CITATIONS</text>
+    <rect x="34" y="362" width="572" height="1" fill="#c9dee1"/>
+  </g>
+</svg>

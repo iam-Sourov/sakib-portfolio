@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Terra Kitchenware store preview">
+  <defs>
+    <linearGradient id="tk-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ee"/>
+      <stop offset="1" stop-color="#ebe5d9"/>
+    </linearGradient>
+    <linearGradient id="tk-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f4f7a"/>
+      <stop offset="1" stop-color="#3c6699"/>
+    </linearGradient>
+    <linearGradient id="tk-clay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98f6b"/>
+      <stop offset="1" stop-color="#a9714f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#tk-bg)"/>
+  <rect x="0" y="0" width="640" height="52" fill="#fbf9f5"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="34" y="33" font-size="11" font-weight="bold" fill="#22303f" letter-spacing="2.6">TERRA</text>
+    <g fill="#7d7a72" font-size="7.5" letter-spacing="1.2">
+      <text x="330" y="32">COOK</text>
+      <text x="372" y="32">TABLE</text>
+      <text x="420" y="32">BUNDLES</text>
+      <text x="482" y="32">STORY</text>
+    </g>
+    <g fill="none" stroke="#8d8a80" stroke-width="1.2">
+      <circle cx="556" cy="28" r="6"/><path d="M561 33l3 3"/>
+    </g>
+    <path d="M578 22h13l3 13h-19z" fill="none" stroke="#8d8a80" stroke-width="1.2"/>
+    <circle cx="592" cy="21" r="4" fill="#2f4f7a"/>
+
+    <text x="34" y="92" font-size="7" fill="#a9714f" letter-spacing="2.8">STONEWARE &amp; STEEL</text>
+    <text x="34" y="130" font-size="28" font-weight="bold" fill="#22303f" letter-spacing="-0.6">Tools that</text>
+    <text x="34" y="162" font-size="28" font-weight="bold" fill="#22303f" letter-spacing="-0.6">earn their shelf.</text>
+    <text x="34" y="184" font-size="9" fill="#7d7a72">Everyday cookware, honestly priced and made to last.</text>
+    <rect x="34" y="200" width="106" height="27" rx="2" fill="url(#tk-blue)"/>
+    <text x="87" y="217" font-size="7.5" fill="#f4f8fd" text-anchor="middle" letter-spacing="1.4">SHOP BUNDLES</text>
+  </g>
+
+  <!-- hero product -->
+  <g>
+    <rect x="340" y="78" width="266" height="150" rx="4" fill="#e6ded0"/>
+    <ellipse cx="472" cy="196" rx="84" ry="12" fill="#cdc2b0"/>
+    <path d="M414 122h116v34c0 26-26 40-58 40s-58-14-58-40z" fill="url(#tk-clay)"/>
+    <rect x="404" y="112" width="136" height="12" rx="6" fill="#8f5f40"/>
+    <ellipse cx="472" cy="118" rx="68" ry="8" fill="#c98f6b"/>
+    <rect x="530" y="128" width="26" height="9" rx="4" fill="#8f5f40"/>
+    <rect x="388" y="128" width="26" height="9" rx="4" fill="#8f5f40"/>
+    <text x="352" y="100" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#7d6b56" letter-spacing="1.6">BEST SELLER</text>
+    <rect x="486" y="196" width="104" height="22" rx="2" fill="#fbf9f5"/>
+    <text x="494" y="211" font-family="Helvetica, Arial, sans-serif" font-size="7.5" fill="#22303f">Dutch Oven · $145</text>
+  </g>
+
+  <!-- bundle tiles -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="34" y="252" width="180" height="96" rx="4" fill="#fbf9f5" stroke="#e0d8c9"/>
+    <rect x="48" y="264" width="42" height="42" rx="3" fill="#e9e2d4"/>
+    <path d="M56 284h26v14H56z" fill="url(#tk-blue)"/>
+    <rect x="64" y="278" width="10" height="6" fill="#2f4f7a"/>
+    <text x="100" y="278" font-size="7.5" fill="#22303f">Starter Set</text>
+    <text x="100" y="290" font-size="7" fill="#a9714f">4 pieces · $189</text>
+    <text x="48" y="326" font-size="6.5" fill="#8d8a80">Save 15% versus buying separately</text>
+
+    <rect x="230" y="252" width="180" height="96" rx="4" fill="#fbf9f5" stroke="#e0d8c9"/>
+    <rect x="244" y="264" width="42" height="42" rx="3" fill="#e9e2d4"/>
+    <circle cx="265" cy="284" r="12" fill="none" stroke="#a9714f" stroke-width="3"/>
+    <text x="296" y="278" font-size="7.5" fill="#22303f">Bake Set</text>
+    <text x="296" y="290" font-size="7" fill="#a9714f">3 pieces · $124</text>
+    <text x="244" y="326" font-size="6.5" fill="#8d8a80">Oven-safe to 260°C</text>
+
+    <rect x="426" y="252" width="180" height="96" rx="4" fill="#fbf9f5" stroke="#e0d8c9"/>
+    <rect x="440" y="264" width="42" height="42" rx="3" fill="#e9e2d4"/>
+    <rect x="450" y="274" width="22" height="22" rx="2" fill="url(#tk-clay)"/>
+    <text x="492" y="278" font-size="7.5" fill="#22303f">Everyday Set</text>
+    <text x="492" y="290" font-size="7" fill="#a9714f">6 pieces · $215</text>
+    <text x="440" y="326" font-size="6.5" fill="#8d8a80">Dishwasher safe</text>
+  </g>
+</svg>

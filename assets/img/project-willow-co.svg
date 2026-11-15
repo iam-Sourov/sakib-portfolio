@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Willow and Co interiors website preview">
+  <defs>
+    <linearGradient id="wc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f1e9"/>
+      <stop offset="1" stop-color="#e9e0d2"/>
+    </linearGradient>
+    <linearGradient id="wc-room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8c3a5"/>
+      <stop offset="1" stop-color="#b79a78"/>
+    </linearGradient>
+    <linearGradient id="wc-room2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c3cbc0"/>
+      <stop offset="1" stop-color="#9aa79a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#wc-bg)"/>
+  <circle cx="70" cy="330" r="90" fill="#eadfcb" opacity="0.8"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="34" y="42" font-size="14" fill="#3d352a" letter-spacing="1.8">WILLOW &amp; CO</text>
+    <g font-family="Helvetica, Arial, sans-serif" fill="#8a7d6a" font-size="7.5" letter-spacing="1.4">
+      <text x="360" y="40">PROJECTS</text>
+      <text x="424" y="40">SERVICES</text>
+      <text x="488" y="40">JOURNAL</text>
+      <text x="556" y="40">CONTACT</text>
+    </g>
+
+    <text x="34" y="106" font-size="7" font-family="Helvetica, Arial, sans-serif" fill="#a08d72" letter-spacing="3">RESIDENTIAL INTERIORS</text>
+    <text x="34" y="146" font-size="30" fill="#33291f" letter-spacing="-0.2">Spaces that</text>
+    <text x="34" y="180" font-size="30" fill="#33291f" letter-spacing="-0.2">feel lived in.</text>
+    <text x="34" y="206" font-size="9" font-family="Helvetica, Arial, sans-serif" fill="#8a7d6a">Considered interiors for homes that need to work, not just</text>
+    <text x="34" y="220" font-size="9" font-family="Helvetica, Arial, sans-serif" fill="#8a7d6a">photograph well.</text>
+    <rect x="34" y="238" width="104" height="27" rx="2" fill="#3d352a"/>
+    <text x="86" y="255" font-size="7.5" font-family="Helvetica, Arial, sans-serif" fill="#f6f1e9" text-anchor="middle" letter-spacing="1.6">VIEW PROJECTS</text>
+  </g>
+
+  <!-- project tiles -->
+  <g>
+    <rect x="300" y="86" width="146" height="154" rx="3" fill="url(#wc-room)"/>
+    <rect x="310" y="96" width="126" height="96" fill="#efe6d8" opacity="0.55"/>
+    <rect x="322" y="132" width="60" height="60" rx="2" fill="#8f7a5f"/>
+    <rect x="392" y="150" width="34" height="42" rx="2" fill="#c2ab8d"/>
+    <text x="304" y="228" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#e8ddca" letter-spacing="0.8">HILLSIDE RESIDENCE</text>
+
+    <rect x="456" y="86" width="150" height="100" rx="3" fill="url(#wc-room2)"/>
+    <rect x="468" y="98" width="86" height="62" fill="#f1f0ea" opacity="0.5"/>
+    <rect x="488" y="130" width="52" height="30" rx="2" fill="#6f7d6c"/>
+    <text x="462" y="174" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#eef1ea" letter-spacing="0.8">STUDIO FLAT</text>
+
+    <rect x="456" y="196" width="150" height="44" rx="3" fill="#fbf7f0" stroke="#e2d8c7"/>
+    <text x="468" y="216" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#8a7d6a" letter-spacing="1.2">FEATURED IN</text>
+    <g font-family="Georgia, serif" font-size="8.5" fill="#4a4033">
+      <text x="468" y="232">AD · Dwell · House</text>
+    </g>
+  </g>
+
+  <!-- materials palette -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="34" y="300" font-size="7" fill="#a08d72" letter-spacing="2.4">MATERIALS</text>
+    <g>
+      <rect x="34" y="312" width="40" height="40" rx="2" fill="#b79a78"/>
+      <rect x="84" y="312" width="40" height="40" rx="2" fill="#8a8f7d"/>
+      <rect x="134" y="312" width="40" height="40" rx="2" fill="#dcd2c0"/>
+      <rect x="184" y="312" width="40" height="40" rx="2" fill="#3d352a"/>
+      <rect x="234" y="312" width="40" height="40" rx="2" fill="#c9a98a"/>
+      <rect x="284" y="312" width="40" height="40" rx="2" fill="#7d6a55"/>
+    </g>
+    <text x="345" y="330" font-size="7.5" fill="#8a7d6a">Oak · linen · lime plaster</text>
+    <text x="345" y="344" font-size="7.5" fill="#8a7d6a">Custom joinery by local makers</text>
+    <rect x="34" y="364" width="576" height="1" fill="#ded3c1"/>
+  </g>
+</svg>
